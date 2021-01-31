@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Brief of Medicine</title>
+</head>
+
+<body>
+    <!-------------------------------------Main menu------------------------------------------->
+    <section class="main">
+        <div class="half-width" id="logo">
+            <h1>Hospital Logo</h1>
+        </div>
+        <div class="half-width" id="main-menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SEARCH</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <!-- name input -->
+        <input class="m-5" type="text" name="" id="medicineName" placeholder="MEDICINE NAME">
+
+        <div class="row align-items-center center p-3">
+            <div class="col m-2">
+                <div class="container">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">Company Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="" placeholder="Ex: Round Company LTD">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">MG</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="" placeholder="Ex: 10mg">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Group</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="" name="" placeholder="Ex: Group">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Drug Class</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="" name="" placeholder="Ex: Drug Class">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col m-2">
+                <div class="container">
+                    <form action="/action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Description</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write description..."
+                                    style="height:200px"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
