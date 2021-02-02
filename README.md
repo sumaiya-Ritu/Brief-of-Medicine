@@ -1,1 +1,0 @@
-# Brief-of-Medicine
